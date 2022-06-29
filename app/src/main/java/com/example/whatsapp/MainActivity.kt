@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         actionBar!!.title = "WhatsApp"
         actionBar.setDisplayUseLogoEnabled(true)
         actionBar.setDisplayShowHomeEnabled(true)
+        b.materialToolbar.setLogo(R.drawable.ic_action_camera)
 
     }
 
