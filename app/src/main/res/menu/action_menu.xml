@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_lupa"
+        android:id="@+id/icSearch"
+        android:title="search"
+        android:orderInCategory="100"/>
+    <item app:showAsAction="never"
+        android:id="@+id/newGroup"
+        android:title="@string/newGroup"
+        android:orderInCategory="100"/>
+    <item app:showAsAction="never"
+        android:id="@+id/newDif"
+        android:title="@string/newDif"
+        android:orderInCategory="100"/>
+    <item app:showAsAction="never"
+        android:id="@+id/vincuDev"
+        android:title="@string/device"
+        android:orderInCategory="100"/>
+    <item app:showAsAction="never"
+        android:id="@+id/messa"
+        android:title="@string/messageD"
+        android:orderInCategory="100"/>
+    <item app:showAsAction="never"
+        android:id="@+id/settings"
+        android:title="@string/sett"
+        android:orderInCategory="100"/>
+
+</menu>

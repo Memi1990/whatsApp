@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/camera"
+        android:icon="@drawable/ic_action_camera"
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="always" />
+    <item android:title="@string/chat"
+        android:id="@+id/principal"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+    <item android:title="@string/state"
+        android:id="@+id/estados"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+    <item android:title="@string/call"
+        android:id="@+id/calls"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+</menu>
